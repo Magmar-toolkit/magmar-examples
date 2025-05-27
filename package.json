@@ -1,0 +1,25 @@
+{
+  "name": "magmar-sdk-example",
+  "version": "1.0.0",
+  "description": "Examples and utilities for the Magmar Account Abstraction SDK",
+  "scripts": {
+    "start": "ts-node examples/init-privatekey.ts",
+    "example:privatekey": "ts-node examples/init-privatekey.ts",
+    "example:particle": "ts-node examples/init-social-particle.ts",
+    "example:web3auth": "ts-node examples/init-social-web3auth.ts",
+    "example:telegram": "ts-node examples/init-telegram.ts",
+    "example:batch": "ts-node examples/batch-userop.ts"
+  },
+  "dependencies": {
+    "@magmar-toolkit/magmar-aa-sdk": "^1.0.0",
+    "@particle-network/auth": "^1.2.1",
+    "@particle-network/provider": "^1.2.0",
+    "@web3auth/modal": "^6.0.0",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
